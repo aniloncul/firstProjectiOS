@@ -13,6 +13,7 @@
 		D59854E528BA1D4D00FE737D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D59854E328BA1D4D00FE737D /* Main.storyboard */; };
 		D59854E728BA1D4E00FE737D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D59854E628BA1D4E00FE737D /* Assets.xcassets */; };
 		D59854EA28BA1D4E00FE737D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D59854E828BA1D4E00FE737D /* LaunchScreen.storyboard */; };
+		D59854F628BB381000FE737D /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59854F528BB381000FE737D /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D59854E628BA1D4E00FE737D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D59854E928BA1D4E00FE737D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D59854EB28BA1D4E00FE737D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D59854F528BB381000FE737D /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,40 @@
 		D59854DC28BA1D4D00FE737D /* UILabel */ = {
 			isa = PBXGroup;
 			children = (
+				D59854F428BA1F4500FE737D /* Controllers */,
+				D59854F328BA1F0A00FE737D /* Views */,
+				D59854F228BA1E4600FE737D /* Supporting Files */,
+			);
+			path = UILabel;
+			sourceTree = "<group>";
+		};
+		D59854F228BA1E4600FE737D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				D59854DD28BA1D4D00FE737D /* AppDelegate.swift */,
 				D59854DF28BA1D4D00FE737D /* SceneDelegate.swift */,
-				D59854E128BA1D4D00FE737D /* ViewController.swift */,
-				D59854E328BA1D4D00FE737D /* Main.storyboard */,
 				D59854E628BA1D4E00FE737D /* Assets.xcassets */,
 				D59854E828BA1D4E00FE737D /* LaunchScreen.storyboard */,
 				D59854EB28BA1D4E00FE737D /* Info.plist */,
 			);
-			path = UILabel;
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D59854F328BA1F0A00FE737D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D59854E328BA1D4D00FE737D /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D59854F428BA1F4500FE737D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D59854E128BA1D4D00FE737D /* ViewController.swift */,
+				D59854F528BB381000FE737D /* DetailsViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +168,7 @@
 				D59854E228BA1D4D00FE737D /* ViewController.swift in Sources */,
 				D59854DE28BA1D4D00FE737D /* AppDelegate.swift in Sources */,
 				D59854E028BA1D4D00FE737D /* SceneDelegate.swift in Sources */,
+				D59854F628BB381000FE737D /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
